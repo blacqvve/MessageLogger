@@ -1,0 +1,22 @@
+{
+    "name": "MessageLogger.Runtime",
+    "rootNamespace": "VanillaWorks",
+    "references": [
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "",
+            "define": "TMP_IMPORTED"
+        }
+    ],
+    "noEngineReferences": false
+}
