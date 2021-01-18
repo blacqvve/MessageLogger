@@ -1,6 +1,6 @@
 {
   "name": "com.vanillaworks.messagelogger",
-  "version": "0.1",
+  "version": "0.1.0",
   "displayName": "Message Logger",
   "description": "A message/event system with archive and save load system.",
   "unity": "2019.1",
