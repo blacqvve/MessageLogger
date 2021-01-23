@@ -79,7 +79,7 @@ namespace VanillaWorks.MessageLogger.Runtime.Core.Services
                 PrePool(BackupPoolSize);
                 mb = pooledMessages.FirstOrDefault(x => x.IsActive==false);
             }
-            if (mb is { })
+            if (mb)
             {
                 mb.transform.SetParent(activeParent);
                 mb.gameObject.SetActive(true);
@@ -87,7 +87,8 @@ namespace VanillaWorks.MessageLogger.Runtime.Core.Services
             }
             else
             {
-                throw new ArgumentNullException();
+                Debug.LogError("Something went wrong with pool service");
+                return null;
             }
         }
 

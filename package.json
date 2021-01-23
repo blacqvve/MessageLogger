@@ -9,6 +9,10 @@
     "event log system",
     "generic message"
   ],
+    "repository": {
+    "url": "https://github.com/blacqvve/MessageLogger.git",
+    "type": "git"
+  },
   "author": {
     "name": "Yiğitcan Öksüz",
     "email": "yigitcanoksuz@gmail.com"
