@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using NUnit.Framework;
 using UnityEngine;
 using VanillaWorks.MessageLogger.Runtime.Core.Models;
 
